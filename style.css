@@ -37,15 +37,16 @@ html[data-theme="light"]{
 .map-card-feature .map-pin{left:70%;top:52%}
 .home-location{padding-top:8px}
 @media(max-width:760px){.map-card-feature{min-height:500px;padding:30px;align-items:flex-start}.map-card-feature:after{background:linear-gradient(180deg,color-mix(in srgb,var(--surface-2) 98%,transparent) 0%,color-mix(in srgb,var(--surface-2) 88%,transparent) 48%,transparent 76%)}.map-card-feature .map-pin{left:52%;top:72%}.map-card-feature .map-copy{max-width:100%}.btn-map{width:100%}}
-/* --- FINAL FIX FOR PRIMARY BUTTON TEXT COLOR --- */
-.btn-primary, 
-.footer .btn, 
-.footer-bottom + .btn,
-button.btn-primary {
-  color: #17110d !important;
-}
-
-.btn-primary span,
-.btn-primary strong {
-  color: #17110d !important;
+/* --- MOBILE & DESKTOP BUTTON TEXT FIX --- */
+@media(max-width: 980px), (max-width: 680px) {
+  .btn-primary, 
+  .footer .btn, 
+  .footer-bottom + .btn,
+  button.btn-primary {
+    color: #17110d !important;
+  }
+  .btn-primary span,
+  .btn-primary strong {
+    color: #17110d !important;
+  }
 }
