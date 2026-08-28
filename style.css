@@ -50,3 +50,29 @@ html[data-theme="light"]{
     color: #17110d !important;
   }
 }
+
+/* --- ABSOLUTE FINAL MOBILE HEADER FIX --- */
+@media screen and (max-width: 980px) {
+  header.site-header div.header-inner,
+  .site-header .header-inner {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+  
+  header.site-header div.brand,
+  .site-header .brand {
+    flex: 0 0 auto !important;
+    width: auto !important;
+    margin-right: auto !important;
+  }
+
+  header.site-header div.header-actions,
+  .site-header .header-actions {
+    margin-left: unset !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+  }
+}
