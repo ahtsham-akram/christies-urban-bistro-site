@@ -1,24 +1,45 @@
-# Christies Urban Bistro — Luxury Website
+# 🍽️ Christie's Urban Bistro
 
-Production-style multi-page static frontend built with semantic HTML5, modular CSS3 and vanilla JavaScript.
+A modern, elegant, and responsive restaurant website designed for **Christie's Urban Bistro**. The website combines a premium visual experience with a warm urban-bistro aesthetic to showcase the restaurant, menu, story, and dining experience.
 
-## Pages
-- `index.html` — cinematic home page
-- `menu.html` — categorized food and beverage menu
-- `story.html` — brand story and culinary philosophy
-- `visit.html` — address, opening hours, map treatment and WhatsApp contact
-- `reserve.html` — reservation and ordering interface
+## ✨ Features
 
-## Shared files
-- `logo.svg` — Christie’s Urban Bistro brand logo
-- `style.css` — responsive dark/light design system
-- `script.js` — theme persistence, hamburger navigation, menu tabs, reserve/order tabs and form interaction
-- `assets/images/` — restaurant and food photography
+- 🏠 Elegant Home Page with premium hero section
+- 🍴 Interactive and organized Menu Page
+- 📖 Our Story section
+- 📍 Visit & Contact page
+- 📅 Table Reservation page
+- 📱 Fully responsive design for desktop, tablet, and mobile
+- 🎨 Premium dark luxury-inspired UI
+- 🖼️ High-quality restaurant and food imagery
+- 🧭 Smooth and intuitive navigation
+- ⚡ Lightweight and fast-loading frontend
+- ♿ Semantic HTML and accessible design practices
 
-## Run locally
-Open this folder in VS Code, install **Live Server**, right-click `index.html`, then choose **Open with Live Server**.
+## 🛠️ Technologies Used
 
-## Important launch note
-The UI and frontend interactions are complete. Before public deployment, replace the sample phone/email/contact values with the client’s confirmed details and connect the reservation/order submit handler in `script.js` to the client’s actual booking, ordering or CRM endpoint.
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Web Design
 
-The home-page hero uses the exact supplied restaurant interior photograph without recompression.
+## 📂 Project Structure
+
+```text
+├── index.html
+├── menu.html
+├── story.html
+├── visit.html
+├── reserve.html
+├── style.css
+├── script.js
+├── README.md
+└── assets/
+
+## 👨‍💻 Developer
+
+Designed and developed with HTML, CSS, and JavaScript.
+
+---
+
+⭐ If you like this project, feel free to give the repository a star!
